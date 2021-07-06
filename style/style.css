@@ -12,6 +12,7 @@ div {
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .card-purple {
@@ -19,6 +20,8 @@ div {
     background: hsl(263, 55%, 52%);
     padding: 20px;
     margin: 30px;
+    flex: 1;
+    width: 32%;
 }
 
 .card-darkgrey{
@@ -26,6 +29,8 @@ div {
     background: hsl(217, 19%, 35%);
     padding: 20px;
     margin: 30px;
+    flex: 1;
+    width: 32%;
 }
 
 .card-white{
@@ -33,6 +38,8 @@ div {
     background: hsl(0, 0%, 100%);
     padding: 20px;
     margin: 30px;
+    flex: 1;
+    width: 32%;
 }
 
 .card-dark{
@@ -40,8 +47,22 @@ div {
     background: hsl(219, 29%, 14%);
     padding: 20px;
     margin: 30px;
+    flex: 1;
+    width: 32%;
 }
 
 .person-details{
+    color: white;
     margin: 5px;
+}
+
+.card-highlight-white{
+    color: white;
+    font-size: large;
+}
+
+.card-body{
+    margin-top: 10px;
+    color:hsl(0, 0%, 81%);
+    font-weight: 500;
 }
