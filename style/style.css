@@ -1,0 +1,47 @@
+body {
+    padding: 5px;
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+div {
+    margin: auto;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-purple {
+    border-radius: 25px;
+    background: hsl(263, 55%, 52%);
+    padding: 20px;
+    margin: 30px;
+}
+
+.card-darkgrey{
+    border-radius: 25px;
+    background: hsl(217, 19%, 35%);
+    padding: 20px;
+    margin: 30px;
+}
+
+.card-white{
+    border-radius: 25px;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 30px;
+}
+
+.card-dark{
+    border-radius: 25px;
+    background: hsl(219, 29%, 14%);
+    padding: 20px;
+    margin: 30px;
+}
+
+.person-details{
+    margin: 5px;
+}
