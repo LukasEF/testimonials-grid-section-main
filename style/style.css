@@ -5,64 +5,114 @@ body {
     font-size: 13px;
 }
 
-div {
+.card-container {
+    height: 600px;
+    width: 1120px;
     margin: auto;
-}
-
-.card-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
 }
 
 .card-purple {
-    border-radius: 25px;
+    border-radius: 10px;
     background: hsl(263, 55%, 52%);
-    padding: 20px;
-    margin: 30px;
-    flex: 1;
-    width: 32%;
+    background-image: url("images/bg-pattern-quotation.svg");
+    padding: 30px;
 }
 
-.card-darkgrey{
-    border-radius: 25px;
+.card-darkgrey {
+    border-radius: 10px;
     background: hsl(217, 19%, 35%);
-    padding: 20px;
-    margin: 30px;
-    flex: 1;
-    width: 32%;
+    padding: 30px;
 }
 
-.card-white{
-    border-radius: 25px;
+.card-white {
+    border-radius: 10px;
     background: hsl(0, 0%, 100%);
-    padding: 20px;
-    margin: 30px;
-    flex: 1;
-    width: 32%;
+    padding: 30px;
 }
 
-.card-dark{
-    border-radius: 25px;
+.card-dark {
+    border-radius: 10px;
     background: hsl(219, 29%, 14%);
-    padding: 20px;
-    margin: 30px;
-    flex: 1;
-    width: 32%;
+    padding: 30px;
 }
 
-.person-details{
+.card-highlight-white {
     color: white;
-    margin: 5px;
-}
-
-.card-highlight-white{
-    color: white;
-    font-size: large;
-}
-
-.card-body{
+    font-size: 20px;
     margin-top: 10px;
-    color:hsl(0, 0%, 81%);
+}
+
+.card-highlight-darkblue {
+    color: hsl(225, 18%, 36%);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-body {
+    margin-top: 15px;
+    color: hsl(0, 0%, 81%);
     font-weight: 500;
+    font-size: 15px;
+}
+
+.person-details {
+    color: white;
+    display: inline-flex;
+    justify-content: left;
+}
+
+.person-details > div{
+    margin-right: 17px;
+}
+
+.person-name {
+    color: white;
+    font-weight: 500;
+}
+
+.card-white .person-name {
+    color: hsl(225, 18%, 36%);
+    font-weight: 500;
+}
+
+.card-white .card-body{
+    color: #969A9C;
+}
+
+.person-title {
+    color: hsl(0, 0%, 81%);
+    font-weight: 200;
+}
+
+.person-avatar {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#kira-card{
+    grid-column: 3;
+    grid-row: 1 / 3;
+    width: 90%;
+}
+
+#jean-card{
+    grid-column: 1;
+    grid-row: 2;
+    width: 40%;
+}
+
+#patrick-card{
+    grid-column: 1/3;
+    grid-row: 2;
+    width: 57%;
+    margin-left: 295px;
+}
+
+.attribution{
+    margin: 40px;
 }
