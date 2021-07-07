@@ -21,24 +21,52 @@ body {
     background: hsl(263, 55%, 52%);
     background-image: url("images/bg-pattern-quotation.svg");
     padding: 30px;
+    transition: 0.5s ease;
+}
+
+.card-purple:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
 }
 
 .card-darkgrey {
     border-radius: 10px;
     background: hsl(217, 19%, 35%);
     padding: 30px;
+    transition: 0.5s ease;
+}
+
+.card-darkgrey:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
 }
 
 .card-white {
     border-radius: 10px;
     background: hsl(0, 0%, 100%);
     padding: 30px;
+    transition: 0.5s ease;
+}
+
+.card-white:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
 }
 
 .card-dark {
     border-radius: 10px;
     background: hsl(219, 29%, 14%);
     padding: 30px;
+    transition: 0.5s ease;
+}
+
+.card-dark:hover{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
 }
 
 .card-highlight-white {
